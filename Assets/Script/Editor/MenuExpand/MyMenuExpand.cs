@@ -21,7 +21,7 @@ public class MyMenuExpand
         }
     }
 
-    //AllAttributeText组件的右键齿轮展示出的菜单选项
+    //AllAttributeText组件的右上角齿轮展示出的菜单选项
     [MenuItem("CONTEXT/AllAttributeText/AddBoxCollider")]
     public static void AddBoxCollider()
     {

@@ -30,6 +30,11 @@ public class FirstWindow : EditorWindow
         Debug.Log("当打开窗口的时候调用一次");
     }
 
+    private void OnEnable()
+    {
+        Debug.Log("当显示窗口的时候调用一次");
+    }
+
     private void OnFocus()
     {
         Debug.Log("当窗口变为选中状态时调用");

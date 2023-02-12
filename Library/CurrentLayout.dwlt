@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 448}
   m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
-  controlID: 814
+  controlID: 13
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 398}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 672
+  controlID: 99
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 919, y: 448}
   m_MaxSize: {x: 22014, y: 14048}
   vertical: 0
-  controlID: 731
+  controlID: 68
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: MyLayout
+  m_LastLoadedLayoutName: 
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,20 +389,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Script/Component/AllAttributeText
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Script/Component/AllAttributeText
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: F:\UnityProjects\EditorExtensionsProject
+  m_LastProjectPath: F:\UnityProjects\EditorExtensionsProject\EditorExtensionsProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c270000
-    m_LastClickedID: 9996
-    m_ExpandedIDs: 00000000942600000c27000030270000e027000000ca9a3b
+    m_SelectedIDs: 7e280000
+    m_LastClickedID: 10366
+    m_ExpandedIDs: 00000000ba260000de260000942700005c280000d22800004829000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -430,7 +430,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000942600000c27000030270000e027000000ca9a3b
+    m_ExpandedIDs: 00000000ba260000de2600009427000048290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,7 +551,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94f0ffff10f3ffffd0faffff
+      m_ExpandedIDs: 96fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -607,9 +607,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 885.2483, y: 562.5328, z: -0.41668528}
+    m_Target: {x: 985.7948, y: 499.7798, z: 6.8125}
     speed: 2
-    m_Value: {x: 885.2483, y: 562.5328, z: -0.41668528}
+    m_Value: {x: 985.7948, y: 499.7798, z: 6.8125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -641,9 +641,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 1516.5635
+    m_Target: 485.3641
     speed: 2
-    m_Value: 1516.5635
+    m_Value: 485.3641
   m_Ortho:
     m_Target: 1
     speed: 2

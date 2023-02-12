@@ -65,22 +65,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Component\AllAttributeText\AllAttributeText.cs" />
-    <Compile Include="Assets\Script\ExpandDataClass\MyStateList.cs" />
-    <Compile Include="Assets\Script\ExpandDataClass\RichTextData.cs" />
+    <Compile Include="Assets\Script\Component\AllAttributeText\MyStateList.cs" />
+    <Compile Include="Assets\Script\Tool\CustomData.cs" />
+    <Compile Include="Assets\Script\Tool\DataManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,7 +285,7 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

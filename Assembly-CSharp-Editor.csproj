@@ -67,22 +67,26 @@
     <Compile Include="Assets\Script\Editor\Component\AllAttributeTextEditor.cs" />
     <Compile Include="Assets\Script\Editor\MenuExpand\MyMenuExpand.cs" />
     <Compile Include="Assets\Script\Editor\MenuExpand\UseDefaultPanels.cs" />
-    <Compile Include="Assets\Script\Editor\WindowExpand\FirstWindow.cs" />
-    <Compile Include="Assets\Script\Editor\WindowExpand\RichTextWindow.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\ComplexWindow\ComplexWindow.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\FirstWindow\FirstWindow.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\NodeShowWindow\Node.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\NodeShowWindow\NodeShowWindow.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\RichTextWindow\RichTextData.cs" />
+    <Compile Include="Assets\Script\Editor\WindowExpand\RichTextWindow\RichTextWindow.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -322,19 +326,19 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>F:/UnityProjects/EditorExtensionsProject/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
