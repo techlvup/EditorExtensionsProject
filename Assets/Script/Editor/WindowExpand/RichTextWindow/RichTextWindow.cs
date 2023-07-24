@@ -12,10 +12,10 @@ public class RichTextWindow : EditorWindow
     private List<RichTextData> m_allTextDataList = null;
     private Vector2 m_scrollPos = Vector2.zero;
 
-    [MenuItem("MyTest/MyWindows/RichTextWindow")]
+    [MenuItem("MyWindow/MyWindows/富文本工具")]
     public static void ShowRichTextWindow()
     {
-        EditorWindow window = GetWindow<RichTextWindow>("富文本窗口");
+        EditorWindow window = GetWindow<RichTextWindow>("富文本工具");
         window.minSize = new Vector2(837, 520);
         window.maxSize = new Vector2(857, 550);
         window.Show();

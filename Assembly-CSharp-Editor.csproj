@@ -55,13 +55,13 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Editor\Component\AllAttributeTextEditor.cs" />
      <Compile Include="Assets\Script\Editor\MenuExpand\MyMenuExpand.cs" />
-     <Compile Include="Assets\Script\Editor\MenuExpand\UseDefaultPanels.cs" />
-     <Compile Include="Assets\Script\Editor\WindowExpand\ComplexWindow\ComplexWindow.cs" />
+     <Compile Include="Assets\Script\Editor\WindowExpand\EditorStyleViewer\EditorStyleViewer.cs" />
      <Compile Include="Assets\Script\Editor\WindowExpand\FirstWindow\FirstWindow.cs" />
      <Compile Include="Assets\Script\Editor\WindowExpand\NodeShowWindow\Node.cs" />
      <Compile Include="Assets\Script\Editor\WindowExpand\NodeShowWindow\NodeShowWindow.cs" />
      <Compile Include="Assets\Script\Editor\WindowExpand\RichTextWindow\RichTextData.cs" />
      <Compile Include="Assets\Script\Editor\WindowExpand\RichTextWindow\RichTextWindow.cs" />
+     <Compile Include="Assets\Script\Editor\WindowExpand\SceneWindow\SceneWindow.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/UnityProjects/EditorExtensionsProject/EditorExtensionsProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

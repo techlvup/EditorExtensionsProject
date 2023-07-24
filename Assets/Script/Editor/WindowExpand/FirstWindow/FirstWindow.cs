@@ -13,10 +13,10 @@ public class FirstWindow : EditorWindow
     private Vector2 scrollPos = Vector2.zero;
 
 
-    [MenuItem("MyTest/MyWindows/FirstWindow")]  //添加菜单选项
+    [MenuItem("MyWindow/MyWindows/第一个窗口")]  //添加菜单选项
     public static void ShowFirstWindow()
     {
-        EditorWindow window = GetWindow<FirstWindow>("我的第一个窗口");
+        EditorWindow window = GetWindow<FirstWindow>("第一个窗口");
         window.minSize = new Vector2(300, 300);
         window.maxSize = new Vector2(500, 500);
         window.Show();

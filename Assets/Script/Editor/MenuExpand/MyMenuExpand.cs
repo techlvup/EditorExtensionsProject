@@ -4,7 +4,7 @@ using UnityEditor;
 public class MyMenuExpand
 {
     //编辑器上方的菜单栏按钮
-    [MenuItem("MyTest/AddAttriubteComponent")]
+    [MenuItem("MyWindow/AddAttriubteComponent")]
     public static void AddAttriubteComponent()
     {
         if (Selection.objects.Length > 0)

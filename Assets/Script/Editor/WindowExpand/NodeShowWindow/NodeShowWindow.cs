@@ -13,10 +13,10 @@ public class NodeShowWindow : EditorWindow
     private Node m_startConnectNode = null;
     private Dictionary<Vector2, Vector2> m_bezierList = new Dictionary<Vector2, Vector2>();
 
-    [MenuItem("MyTest/MyWindows/NodeShowWindow")]
+    [MenuItem("MyWindow/MyWindows/可视化节点窗口")]
     public static void DisplayNodeShowWindow()
     {
-        EditorWindow window = GetWindow<NodeShowWindow>("节点展示窗口");
+        EditorWindow window = GetWindow<NodeShowWindow>("可视化节点窗口");
         window.minSize = new Vector2(1200, 800);
         window.Show();
     }
