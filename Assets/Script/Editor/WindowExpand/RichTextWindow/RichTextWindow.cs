@@ -12,7 +12,7 @@ public class RichTextWindow : EditorWindow
     private List<RichTextData> m_allTextDataList = null;
     private Vector2 m_scrollPos = Vector2.zero;
 
-    [MenuItem("MyWindow/MyWindows/富文本工具")]
+    [MenuItem("MyExtensions/MyWindows/富文本工具")]
     public static void ShowRichTextWindow()
     {
         EditorWindow window = GetWindow<RichTextWindow>("富文本工具");

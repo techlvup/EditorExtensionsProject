@@ -13,7 +13,7 @@ public class FirstWindow : EditorWindow
     private Vector2 scrollPos = Vector2.zero;
 
 
-    [MenuItem("MyWindow/MyWindows/第一个窗口")]  //添加菜单选项
+    [MenuItem("MyExtensions/MyWindows/第一个窗口")]  //添加菜单选项
     public static void ShowFirstWindow()
     {
         EditorWindow window = GetWindow<FirstWindow>("第一个窗口");

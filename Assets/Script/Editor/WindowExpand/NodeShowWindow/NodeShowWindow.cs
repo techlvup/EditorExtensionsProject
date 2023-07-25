@@ -13,7 +13,7 @@ public class NodeShowWindow : EditorWindow
     private Node m_startConnectNode = null;
     private Dictionary<Vector2, Vector2> m_bezierList = new Dictionary<Vector2, Vector2>();
 
-    [MenuItem("MyWindow/MyWindows/可视化节点窗口")]
+    [MenuItem("MyExtensions/MyWindows/可视化节点窗口")]
     public static void DisplayNodeShowWindow()
     {
         EditorWindow window = GetWindow<NodeShowWindow>("可视化节点窗口");
